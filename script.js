@@ -636,6 +636,11 @@ document.getElementById("limbo").addEventListener("click", () => {
         updateStyles();
     }
 });
+document.getElementById("undoButton").addEventListener("click", () => {
+    if (undo()) {
+        updateStyles();
+    }
+});
 
 document.addEventListener("keydown", function (event) {
     // Windows/Linux: Ctrl+Z
