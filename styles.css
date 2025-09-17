@@ -27,7 +27,7 @@
 .drawpile-label, span {
   font-family: "ClashRoyale", sans-serif;
   font-weight: bold;
-  font-size: 1vw;
+  font-size: 1.2vw;
   color: #333;
   user-select: none; /* optional: prevent text selection */
 }
@@ -53,7 +53,7 @@
 
 .activehand span , #cycle-limbo {
   margin-top: 5px;
-  font-size: 1vw;
+  font-size: 1.5vw;
   font-weight: bold;
   color: #333;
 }
@@ -194,4 +194,53 @@
 .played-cards li img {
   width: 30px;
   height: auto;
+}
+
+
+@media (max-width: 600px) {
+  .drawpile-label, span {
+    font-size: 2vw;
+  }
+
+  .drawpile img {
+    width: 8vw; /* make cards responsive */
+  }
+
+  .activehand img, .limbo img {
+    width: 12vw; /* make cards responsive */
+  }
+
+  .card span, .limbo span {
+    font-size: 3vw;
+  }
+
+  #cardSearch, #searchResults {
+    width: 80%; /* make search input responsive */
+    font-size: 3vw;
+  }
+
+  #cycle-limbo {
+    font-size: 3vw;
+  }
+
+  .search-card span {
+    font-size: 3vw;
+  }
+
+  .played-cards {
+    width: 80%; /* make played cards responsive */
+    max-height: 40vh; /* limit height on small screens */
+  }
+
+  .played-cards h3 , h3 span, #undoButton {
+    font-size: 3vw;
+  }
+
+  .played-cards li {
+    font-size: 2vw;
+  }
+
+  .played-cards li img {
+    width: 8vw; /* make icons responsive */
+  }
 }
