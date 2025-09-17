@@ -220,7 +220,7 @@
 
   #cardSearch, #searchResults {
     width: 80%; /* make search input responsive */
-    font-size: 3vw;
+    font-size: 16px;
   }
 
   #cycle-limbo {
