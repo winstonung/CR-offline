@@ -290,7 +290,7 @@ searchInput.addEventListener("input", () => {
             cardDiv.classList.add("search-card");
 
             cardDiv.innerHTML = `
-                <img src="${card.icon}" alt="${card.name}" width="60">
+                <img src="${card.icon}" alt="${card.name}">
                 <span>${card.name}</span>
             `;
 
