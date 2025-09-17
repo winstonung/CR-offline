@@ -149,7 +149,7 @@
 
 #undoButton {
   padding: 10px 20px;
-  font-size: 1vw;
+  font-size: 16px;
   font-family: "ClashRoyale", sans-serif;
   cursor: pointer;
   border: 2px solid #333;
@@ -171,9 +171,9 @@
   background: #fafafa;
 }
 
-.played-cards h3 {
+.played-cards h3 , h3 span {
   margin: 0 0 8px 0;
-  font-size: 1vw;
+  font-size: 16px;
   text-align: center;
 }
 
