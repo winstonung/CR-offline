@@ -228,11 +228,11 @@
   }
 
   .search-card span {
-    font-size: 2vw;
+    font-size: 4vw;
   }
 
   .search-card img {
-    width: 10vw; /* make icons responsive */
+    width: 14vw; /* make icons responsive */
     height: auto;
   }
 
